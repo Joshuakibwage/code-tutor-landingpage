@@ -73,7 +73,7 @@ const Navbar = () => {
     
     
   return (
-    <nav className="bg-black text-white fixed top-0 left-0 right-0 border-b border-white/10">
+    <nav className="bg-black text-white fixed top-0 left-0 right-0 border-b border-white/10 z-2">
 
       {/* Desktop menu */}
         <div className="container mx-auto px-4 py-2 sm:px-6 lg:px-8">
@@ -82,7 +82,7 @@ const Navbar = () => {
                 {/* logo */}
                 <div>
                     <Link to='/' className="text-xl font-bold">
-                        <span className="text-blue-500">CodeTutor</span> UI
+                        <span className="text-blue-500">CodeTutor</span>
                     </Link>
                 </div>
 
