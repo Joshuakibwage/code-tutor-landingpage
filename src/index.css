@@ -10,3 +10,11 @@
 .animate-marquee {
     animation: marquee 30s linear infinite;
 }
+
+@theme {
+    --color-primary: #080806;
+}
+
+.primary-container {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8
+}
