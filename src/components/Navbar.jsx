@@ -73,7 +73,7 @@ const Navbar = () => {
     
     
   return (
-    <nav className="bg-black text-white fixed top-0 left-0 right-0 border-b border-white/10 z-2">
+    <nav className="bg-black text-white fixed top-0 left-0 right-0 border-b border-white/10 z-50">
 
       {/* Desktop menu */}
         <div className="container mx-auto px-4 py-2 sm:px-6 lg:px-8">
@@ -111,7 +111,7 @@ const Navbar = () => {
                             {
                                 activeDropdown === key && (
                                   <div className="absolute left-0 mt-2 w-screen max-w-md bg-white rounded-md
-                                  shadow-md py-1 text-black">
+                                  shadow-md py-1 text-black ">
                                     <div className="">
                                       {
                                         key === 'platform' ? 
