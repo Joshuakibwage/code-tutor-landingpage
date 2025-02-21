@@ -5,6 +5,7 @@ import FeaturesSection from "./components/FeaturesSection";
 // import DesignSection from "./components/DesignSection";
 // import CustomerSection from "./components/CustomerSection";
 import About from "./components/About";
+import TryNow from "./components/TryNow";
  
 
  const App = () => {
@@ -17,6 +18,7 @@ import About from "./components/About";
       {/* <DesignSection /> */}
       {/* <CustomerSection /> */}
       <About />
+      <TryNow />
     </div>
   )
  }
